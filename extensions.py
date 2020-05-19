@@ -60,6 +60,6 @@ file_extensions = {
     '.osz' : 'Misc Files',
     '.osk' : 'Misc Files',
     '.ovpn' : 'Misc Files',
-
+    '.part' : 'Misc Files'
 
 }
