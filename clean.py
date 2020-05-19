@@ -9,9 +9,12 @@ class MyOrganiser:
 
     def search(self, curPath):
         """
+
         Walks the current directory and checks the file extensions if it maches
         the values in the file_extensions dictionary
+        
         param: current working path
+
         """
 
         for files in os.listdir(curPath):
@@ -22,25 +25,32 @@ class MyOrganiser:
 
     def moveFile(self, extension, file_format):
         """
+
         Once the current directory is walked, it will begin check if the file 
         extensions match the keys in the dictionary and if it does, it will return
         the value of the key in the dictionary
+
         param: file_extension, file_name_format
+
         """
-        
+    
         for category in file_extensions.items():
             if extension in category:
                 self.newPath = os.path.join(self.dest, category[1])
+                self.filePrompt = file_format, str(category[1]), '|'
 
                 shutil.move(file_format, self.newPath)
-                print(file_format, str(category[1]), sep='|')
+                print(self.filePrompt)
             
-            # if not extension in category:
-            #     self.miscFiles = os.path.join(self.dest, file_extensions['none'])
+            try:
+                if not extension in category:
+                    self.newPath = os.path.join(self.dest, file_extensions['none'])
 
-            #     print("File is not categorized and placed in the Misc Files")
-            #     shutil.move(file_format, self.miscFiles)
+                    shutil.move(file_format, self.newPath)
+                    print(self.filePrompt)
 
+            except Exception:
+                pass
 
 if __name__ == "__main__":
     curPath = os.getcwd()

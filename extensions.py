@@ -38,9 +38,9 @@ file_extensions = {
     '.svg' : 'Vector and Photshop Files',
 
     #Excecutable Files
-    '.exe' : 'Excecutable Files',
-    '.jar' : 'Excecutable Files',
-    '.bat' : 'Excecutable Files',
+    '.exe' : 'Executable Files',
+    '.jar' : 'Executable Files',
+    '.bat' : 'Executable Files',
     '.msi' : 'Executable Files',
 
     #Compressed Files
@@ -52,15 +52,16 @@ file_extensions = {
     'tar.xz': 'Compressed Files',
 
     #Disk Image Files
-    '.iso' : 'Disk Image Files',
+    '.iso' : 'Disk Images Files',
 
     #Misc Files
     '.ico' : 'Misc Files',
-    'none' : 'Misc Files',
     '.mega' : 'Misc Files',
     '.osz' : 'Misc Files',
     '.osk' : 'Misc Files',
     '.ovpn' : 'Misc Files',
-    '.part' : 'Misc Files'
+    '.part' : 'Misc Files',
 
+    #Uncategorized Files
+    'none' : 'Uncategorized Files'
 }
