@@ -58,6 +58,7 @@ file_extensions = {
     'none' : 'Misc Files',
     '.mega' : 'Misc Files',
     '.osz' : 'Misc Files',
+    '.osk' : 'Misc Files',
     '.ovpn' : 'Misc Files',
 
 
