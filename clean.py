@@ -5,7 +5,7 @@ import shutil
 from extensions import file_extensions
 
 class MyOrganiser:
-    dest = "/mnt/c/Users/Lemue/Desktop/Test Folder dest"
+    dest = "D:\ARCHIVED FILES"
 
     def search(self, curPath):
         """
@@ -43,7 +43,7 @@ class MyOrganiser:
 
 
 if __name__ == "__main__":
-    curPath = "/mnt/c/Users/Lemue/Desktop/Test Folder"
+    curPath = os.getcwd()
     os.chdir(curPath)
 
     main = MyOrganiser()

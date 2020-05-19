@@ -18,15 +18,17 @@ file_extensions = {
     '.mp4' : 'Audio Files',
     '.mp3' : 'Audio Files',
     '.wav' : 'Audio Files',
+    '.pkf' : 'Audio Files',
 
     '.mp4' : 'Video Files',
-    '.mov' : 'Video Files',
+    '.MOV' : 'Video Files',
     '.avi' : 'Video Files',
 
     #Images Files
     '.png' : 'Images Files',
     '.jpg' : 'Images Files',
     '.jpeg' : 'Images Files',
+    '.jiff' : 'Images Files',
 
     #Vector and Photoshop Files
     '.ai' : 'Vector and Photshop Files',
@@ -53,6 +55,10 @@ file_extensions = {
 
     #Misc Files
     '.ico' : 'Misc Files',
-    'none' : 'Misc FIles'
+    'none' : 'Misc Files',
+    '.mega' : 'Misc Files',
+    '.osz' : 'Misc Files',
+    '.ovpn' : 'Misc Files',
+
 
 }
