@@ -2,13 +2,10 @@
     --Text Files
         ---doc
         ---docx
-        ---rtf
         ---txt
         ---pdf
     --Data Files
         ---csv
-        ---dat
-        ---pps
         ---ppt
         ---pptx
         ---xls
@@ -47,4 +44,6 @@
     --Misc Files
         ---uncategorized file extenions
     
+# Functions to make
+    --walk a given directory and check its file extensions and put them to the responding folders
 

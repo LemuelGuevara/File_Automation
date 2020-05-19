@@ -1,0 +1,1 @@
+"C:\Users\Lemue\AppData\Local\Programs\Python\Python38\python.exe" "C:\Users\Lemue\Desktop\Python_Projects\File_Automation\clean.py"
