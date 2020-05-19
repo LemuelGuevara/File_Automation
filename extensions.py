@@ -19,6 +19,7 @@ file_extensions = {
     '.mp3' : 'Audio Files',
     '.wav' : 'Audio Files',
     '.pkf' : 'Audio Files',
+    '.m4a' : 'Audio Files',
 
     '.mp4' : 'Video Files',
     '.MOV' : 'Video Files',
@@ -28,7 +29,7 @@ file_extensions = {
     '.png' : 'Images Files',
     '.jpg' : 'Images Files',
     '.jpeg' : 'Images Files',
-    '.jiff' : 'Images Files',
+    '.jfif' : 'Images Files',
 
     #Vector and Photoshop Files
     '.ai' : 'Vector and Photshop Files',
