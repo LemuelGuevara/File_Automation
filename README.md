@@ -1,0 +1,50 @@
+# File tree system
+    --Text Files
+        ---doc
+        ---docx
+        ---rtf
+        ---txt
+        ---pdf
+    --Data Files
+        ---csv
+        ---dat
+        ---pps
+        ---ppt
+        ---pptx
+        ---xls
+        ---xlsx
+    --Audio Files
+        ---m4a
+        ---mp3
+        ---wav
+    --Video Files
+        ---mov
+        ---mp4
+        ---avi
+    --Images Files
+        ---png
+        ---jpg
+        ---jpeg
+        ---jiff
+    --Vector and Photohop Files
+        ---ai
+        ---psd
+        ---xd
+        ---svg
+        ---ico
+    --Executable Files
+        ---exe
+        ---jar
+        ---bat
+    --Compressed Files
+        ---7z
+        ---zip
+        ---rar
+        ---gz
+        ---tar.gz
+    --Disk Image Files
+        ---iso
+    --Misc Files
+        ---uncategorized file extenions
+    
+
