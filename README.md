@@ -1,6 +1,11 @@
 # Functions to make
+<<<<<<< HEAD
     --walk a given directory and check its file extensions and put them to the responding folders """Done"""
     --automate making of sub directories """In the making"""
+=======
+    --walk a given directory and check its file extensions and put them to the responding folders *DONE*
+    --automate making of sub directories
+>>>>>>> b527c72971b6c4aba17674959718ba40c8e8b679
 
 # New File Tree Directory System
     --DOCUMENTS
