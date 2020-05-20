@@ -5,7 +5,7 @@ import shutil
 from extensions import file_extensions
 
 class MyOrganiser:
-    dest = "D:\ARCHIVED FILES"
+    dest = "/mnt/d/FILE TESTING/TEST DEST"
 
     def search(self, curPath):
         """
@@ -23,6 +23,22 @@ class MyOrganiser:
 
             self.moveFile(file_extension, new_file_name)
 
+    def makeSubDirs(self):
+        """
+
+        Makes a directory first that represents its main category then makes subfolders
+        that represents its sub categories
+
+        """
+
+        self.subFolder = self.newPath
+        
+        try:
+            for folder in self.subfolder:
+                os.mkdir(self.subFolder)
+        except Exception:
+            pass
+
     def moveFile(self, extension, file_format):
         """
 
@@ -37,7 +53,7 @@ class MyOrganiser:
         for category in file_extensions.items():
             if extension in category:
                 self.newPath = os.path.join(self.dest, category[1])
-                self.filePrompt = file_format, str(category[1]), '|'
+                self.filePrompt = file_format + str(category[1]) + '|'
 
                 shutil.move(file_format, self.newPath)
                 print(self.filePrompt)
@@ -53,7 +69,7 @@ class MyOrganiser:
                 pass
 
 if __name__ == "__main__":
-    curPath = os.getcwd()
+    curPath = "/mnt/d/FILE TESTING/TEST ROOT"
     os.chdir(curPath)
 
     main = MyOrganiser()

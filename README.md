@@ -45,5 +45,58 @@
         ---uncategorized file extenions
     
 # Functions to make
-    --walk a given directory and check its file extensions and put them to the responding folders
+    --walk a given directory and check its file extensions and put them to the responding folders """Done"""
+    --automate making of sub directories
 
+# New File Tree System
+    --DOCUMENTS
+        --Text Files
+            ---doc
+            ---docx
+            ---txt
+            ---pdf
+        --Data Files
+            ---csv
+            ---ppt
+            ---pptx
+            ---xls
+            ---xlsx
+    --MEDIA
+        --Audio Files
+            ---m4a
+            ---mp3
+            ---wav
+        --Video Files
+            ---mov
+            ---mp4
+            ---avi
+        --Images Files
+            ---png
+            ---jpg
+            ---jpeg
+            ---jiff
+        --Vector and Photohop Files
+            ---ai
+            ---psd
+            ---xd
+            ---svg
+            ---ico
+    --INSTALLERS
+        --Executable Files
+            ---exe
+            ---jar
+            ---bat
+        --Compressed Files
+            ---7z
+            ---zip
+            ---rar
+            ---gz
+            ---tar.gz
+        --Disk Image Files
+            ---iso
+   
+    --UNCATEGORIZED
+        --Misc Files
+            ---uncategorized file extenions
+        --Misc Folders
+            ---random folders

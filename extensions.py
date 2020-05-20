@@ -2,66 +2,66 @@
 file_extensions = {
 
     #Text Files
-    '.doc' : 'Text Files',
-    '.docx' : 'Text Files',
-    '.txt' : 'Text Files',
-    '.pdf' : 'Text files',
+    '.doc' : 'DOCUMENTS/Text Files',
+    '.docx' : 'DOCUMENTS/Text Files',
+    '.txt' : 'DOCUMENTS/Text Files',
+    '.pdf' : 'DOCUMENTS/Text files',
 
     #Data Files
-    '.csv' : 'Data Files',
-    '.ppt' : 'Data Files',
-    '.pptx' : 'Data Files',
-    '.xls' : 'Data Files',
-    '.xlsx' : 'Data Files',
+    '.csv' : 'DOCUMENTS/Data Files',
+    '.ppt' : 'DOCUMENTS/Data Files',
+    '.pptx' : 'DOCUMENTS/Data Files',
+    '.xls' : 'DOCUMENTS/Data Files',
+    '.xlsx' : 'DOCUMENTS/Data Files',
 
     #Audio Files
-    '.mp4' : 'Audio Files',
-    '.mp3' : 'Audio Files',
-    '.wav' : 'Audio Files',
-    '.pkf' : 'Audio Files',
-    '.m4a' : 'Audio Files',
+    '.mp4' : 'MEDIA/Audio Files',
+    '.mp3' : 'MEDIA/Audio Files',
+    '.wav' : 'MEDIA/Audio Files',
+    '.pkf' : 'MEDIA/Audio Files',
+    '.m4a' : 'MEDIA/Audio Files',
 
-    '.mp4' : 'Video Files',
-    '.MOV' : 'Video Files',
-    '.avi' : 'Video Files',
+    '.mp4' : 'MEDIA/Video Files',
+    '.MOV' : 'MEDIA/Video Files',
+    '.avi' : 'MEDIA/Video Files',
 
     #Images Files
-    '.png' : 'Images Files',
-    '.jpg' : 'Images Files',
-    '.jpeg' : 'Images Files',
-    '.jfif' : 'Images Files',
+    '.png' : 'MEDIA/Images Files',
+    '.jpg' : 'MEDIA/Images Files',
+    '.jpeg' : 'MEDIA/Images Files',
+    '.jfif' : 'MEDIA/Images Files',
 
     #Vector and Photoshop Files
-    '.ai' : 'Vector and Photshop Files',
-    '.psd' : 'Vector and Photoshop Files',
-    '.xd' : 'Vector and Photoshop Files',
-    '.svg' : 'Vector and Photshop Files',
+    '.ai' : 'MEDIA/Vector and Photshop Files',
+    '.psd' : 'MEDIA/Vector and Photoshop Files',
+    '.xd' : 'MEDIA/Vector and Photoshop Files',
+    '.svg' : 'MEDIA/Vector and Photshop Files',
 
     #Excecutable Files
-    '.exe' : 'Executable Files',
-    '.jar' : 'Executable Files',
-    '.bat' : 'Executable Files',
-    '.msi' : 'Executable Files',
+    '.exe' : 'INSTALLERS/Executable Files',
+    '.jar' : 'INSTALLERS/Executable Files',
+    '.bat' : 'INSTALLERS/Executable Files',
+    '.msi' : 'INSTALLERS/Executable Files',
 
     #Compressed Files
-    '.7z' : 'Compressed Files',
-    '.zip' : 'Compressed Files',
-    '.rar' : 'Compressed Files',
-    '.gz' : 'Compressed Files',
-    'tar.gz' : 'Compressed Files',
-    'tar.xz': 'Compressed Files',
+    '.7z' : 'INSTALLERS/Compressed Files',
+    '.zip' : 'INSTALLERS/Compressed Files',
+    '.rar' : 'INSTALLERS/Compressed Files',
+    '.gz' : 'INSTALLERS/Compressed Files',
+    'tar.gz' : 'INSTALLERS/Compressed Files',
+    'tar.xz': 'INSTALLERS/Compressed Files',
 
     #Disk Image Files
-    '.iso' : 'Disk Images Files',
+    '.iso' : 'INSTALLERS/Disk Images Files',
 
     #Misc Files
-    '.ico' : 'Misc Files',
-    '.mega' : 'Misc Files',
-    '.osz' : 'Misc Files',
-    '.osk' : 'Misc Files',
-    '.ovpn' : 'Misc Files',
-    '.part' : 'Misc Files',
+    '.ico' : 'UNCATEGORIZED/Misc Files',
+    '.mega' : 'UNCATEGORIZED/Misc Files',
+    '.osz' : 'UNCATEGORIZED/Misc Files',
+    '.osk' : 'UNCATEGORIZED/Misc Files',
+    '.ovpn' : 'UNCATEGORIZED/Misc Files',
+    '.part' : 'UNCATEGORIZED/Misc Files',
 
     #Uncategorized Files
-    'none' : 'Uncategorized Files'
+    'none' : 'UNCATEGORIZED/Misc Folders'
 }
