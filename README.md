@@ -45,7 +45,7 @@
         ---uncategorized file extenions
     
 # Functions to make
-    --walk a given directory and check its file extensions and put them to the responding folders """Done"""
+    --walk a given directory and check its file extensions and put them to the responding folders *DONE*
     --automate making of sub directories
 
 # New File Tree System
