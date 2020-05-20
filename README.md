@@ -1,102 +1,91 @@
-# File tree system
-    --Text Files
-        ---doc
-        ---docx
-        ---txt
-        ---pdf
-    --Data Files
-        ---csv
-        ---ppt
-        ---pptx
-        ---xls
-        ---xlsx
-    --Audio Files
-        ---m4a
-        ---mp3
-        ---wav
-    --Video Files
-        ---mov
-        ---mp4
-        ---avi
-    --Images Files
-        ---png
-        ---jpg
-        ---jpeg
-        ---jiff
-    --Vector and Photohop Files
-        ---ai
-        ---psd
-        ---xd
-        ---svg
-        ---ico
-    --Executable Files
-        ---exe
-        ---jar
-        ---bat
-    --Compressed Files
-        ---7z
-        ---zip
-        ---rar
-        ---gz
-        ---tar.gz
-    --Disk Image Files
-        ---iso
-    --Misc Files
-        ---uncategorized file extenions
-    
 # Functions to make
     --walk a given directory and check its file extensions and put them to the responding folders """Done"""
-    --automate making of sub directories
+    --automate making of sub directories """In the making"""
 
-# New File Tree System
+# New File Tree Directory System
     --DOCUMENTS
-        --Text Files
-            ---doc
-            ---docx
-            ---txt
-            ---pdf
+
+        --Text Doucments
+            ---Word Files
+                ----docx
+                ----doc
+            ---Text Files
+                ---txt
+            ---PDF Files
+                ----pdf
+        
         --Data Files
-            ---csv
-            ---ppt
-            ---pptx
-            ---xls
-            ---xlsx
+            ---Excel Files
+                ----csv
+                ----xls
+                ----xlsx
+            ---Powerpoint Files
+                ----ppt
+                ----pptx
+---------------------------------------------------------              
     --MEDIA
+
         --Audio Files
-            ---m4a
-            ---mp3
-            ---wav
+            ---M4A
+                ----m4a
+            ---MP3
+                ----mp3
+            ----Adobe Audition
+                ----wav
+                ----pkf
+
         --Video Files
-            ---mov
-            ---mp4
-            ---avi
-        --Images Files
-            ---png
-            ---jpg
-            ---jpeg
-            ---jiff
-        --Vector and Photohop Files
-            ---ai
-            ---psd
-            ---xd
-            ---svg
-            ---ico
+            ---MOV
+                ----mov
+            ---MP4
+                ----mp4
+            ---AVI
+                ----avi
+
+        --Image Files
+            ---PNG
+                ----png
+            ---JPG
+                ----jpg
+            ---JFIF
+                ----jfif
+
+        --Adobe Image Related Files
+            ---Illustrator
+                ----ai
+            ---Photoshop
+                ----psd
+            ---XD
+                ----xd
+            ---SVG
+                ----svg
+            ---Icons
+                ----ico
+---------------------------------------------------------    
     --INSTALLERS
+
         --Executable Files
-            ---exe
-            ---jar
-            ---bat
+            ---EXE
+                ----exe
+            ---JAR
+                ----jar
+            ---BAT
+                ----bat
+
         --Compressed Files
             ---7z
             ---zip
             ---rar
             ---gz
             ---tar.gz
+
         --Disk Image Files
             ---iso
-   
+---------------------------------------------------------     
     --UNCATEGORIZED
+
         --Misc Files
             ---uncategorized file extenions
+
         --Misc Folders
             ---random folders
