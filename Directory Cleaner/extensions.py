@@ -67,7 +67,7 @@ file_extensions = {
     '.part' : 'UNCATEGORIZED/Misc Files',
     
     #3d Modeling Files
-    '.blend': "3DMODELING/Blender"
+    '.blend' : '3DMODELING/Blender'
 
     #Uncategorized Files
     'none' : 'UNCATEGORIZED/Misc Folders'
