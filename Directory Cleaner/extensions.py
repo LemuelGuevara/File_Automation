@@ -64,7 +64,7 @@ file_extensions = {
     '.osz' : 'UNCATEGORIZED/Misc Files',
     '.osk' : 'UNCATEGORIZED/Misc Files',
     '.ovpn' : 'UNCATEGORIZED/Misc Files',
-    '.part' : 'UNCATEGORIZED/Misc Files',
+    '.part' : 'UNCATEGORIZED/Misc Files'
     
     #3d Modeling Files
     '.blend' : '3DMODELING/Blender'
