@@ -70,5 +70,9 @@ file_extensions = {
     '.blend' : '3DMODELING/Blender',
 
     #Uncategorized Files
-    'none' : 'UNCATEGORIZED/Misc Folders'
+    'none' : 'UNCATEGORIZED/Misc Folders',
+    
+    #Programming Files
+    '.py' : 'PROGRAMMING/Python',
+    '.dart' : "PROGRAMMING/Flutter",
 }
