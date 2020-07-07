@@ -31,6 +31,7 @@ file_extensions = {
     '.jpg' : 'MEDIA/Image Files/JPG',
     '.jfif' : 'MEDIA/Image Files/JFIF',
     '.jpeg' : 'MEDIA/Image Files/JPEG',
+    '.PNG' : 'MEDIA/Image Files/PNG',
 
     #Vector and Photoshop Files
     '.ai' : 'MEDIA/Adobe Image Related Files/Illustrator',
@@ -64,6 +65,9 @@ file_extensions = {
     '.osk' : 'UNCATEGORIZED/Misc Files',
     '.ovpn' : 'UNCATEGORIZED/Misc Files',
     '.part' : 'UNCATEGORIZED/Misc Files',
+    
+    #3d Modeling Files
+    '.blend': "3DMODELING/Blender"
 
     #Uncategorized Files
     'none' : 'UNCATEGORIZED/Misc Folders'
