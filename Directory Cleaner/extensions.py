@@ -58,6 +58,9 @@ file_extensions = {
     #Disk Image Files
     '.iso' : 'INSTALLERS/Disk Images Files',
 
+    #3d Modeling Files
+    '.blend' : '3DMODELING/Blender',
+
     #Misc Files
     '.ico' : 'UNCATEGORIZED/Misc Files',
     '.mega' : 'UNCATEGORIZED/Misc Files',
@@ -66,13 +69,6 @@ file_extensions = {
     '.ovpn' : 'UNCATEGORIZED/Misc Files',
     '.part' : 'UNCATEGORIZED/Misc Files',
     
-    #3d Modeling Files
-    '.blend' : '3DMODELING/Blender',
-
     #Uncategorized Files
-    'none' : 'UNCATEGORIZED/Misc Folders',
-    
-    #Programming Files
-    '.py' : 'PROGRAMMING/Python',
-    '.dart' : "PROGRAMMING/Flutter",
+    'none' : 'UNCATEGORIZED/Misc Folders'
 }
